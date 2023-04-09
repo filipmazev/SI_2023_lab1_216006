@@ -1,0 +1,36 @@
+commit 060f30d2509f23daf3f17fee5fee45fc68291ab2
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:26:27 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit e1a76acca9948a05b4def228af0b3fe767df6191
+Merge: 1b16deb 29a13a8
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:27:17 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 29a13a8a169753a68ab2e121158453c667d3c447
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:25:39 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 1b16deb0632004c6eb0b06036e6c61c1108894bf
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:24:55 2023 +0200
+
+    Fix wrong loop for reading
+
+commit f1a6830c0feadcdefe40bb87cb70fecd4846ee0f
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:23:06 2023 +0200
+
+    Add java class
+
+commit 673121542074a358808999e0ba97d5f09b3cd0af
+Author: filipmazev <fmazev@yahoo.com>
+Date:   Sun Apr 9 19:20:30 2023 +0200
+
+    Initial commit

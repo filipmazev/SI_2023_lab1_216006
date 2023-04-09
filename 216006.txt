@@ -1,0 +1,40 @@
+cd "C:\Users\filip\Documents\GitHub\1.FINKI\SI_LABS"
+echo "Filip Mazev 216006" >> README.md
+git init
+git remote add origin  https://github.com/filipmazev/SI_2023_lab1_216006.git
+git add README.md
+git commit -m "Initial commit"
+echo "" >> SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+git push --all origin
+git branch bug1
+git branch bug2
+git branch bug3
+git checkout bug1
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+git checkout bug2
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+git checkout bug3
+git add SILab1.java    
+git commit -m "Fix method sumEvenNumbers"
+git push --all origin
+git checkout master
+git merge bug1
+git push --all origin
+git merge bug2
+git push --all origin
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3
+git push --all origin
+git push --force origin bug3
+git log
+git --no-pager log > logs.txt
+git add logs.txt
+git add 216006.txt
+git commit -m "Final commit"
+git push --all origin
